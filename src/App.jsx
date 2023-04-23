@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const apiKey = "9ba16fe222dd0c3b76c46d0bcf3c99c2";
+  const apiKey = import.meta.env.VITE_APIKEY;
   const [city, setCity] = useState("");
   const [wdata, setwData] = useState([{}]);
 
