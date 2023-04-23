@@ -33,7 +33,7 @@ function App() {
       ) : (
         <div>
           <p>{wdata.name}</p>
-          <p>{wdata.main.temp}</p>
+          <p>{wdata.main.temp} °C</p>
           <p>{wdata.weather[0].main}</p>
         </div>
       )}
